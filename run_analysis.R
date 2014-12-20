@@ -34,7 +34,7 @@ run.analysis <- function() {
     rm(train.dataset, test.dataset)
     
     
-    # Making changes to improve de dataset
+    # Making changes to improve the dataset
     ##########################################################
     # Setting column names
     colnames(total.dataset) <- dataset.column.names()
